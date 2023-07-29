@@ -1,0 +1,30 @@
+.subtitle {
+  display: flex;
+  align-items: center;
+  span {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    color: #fff;
+    margin-left: 15px;
+  }
+}
+
+h1 {
+  font-size: 12.4rem;
+  font-weight: 700;
+  line-height: 97.5%;
+}
+
+h2 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 160%;
+
+}
