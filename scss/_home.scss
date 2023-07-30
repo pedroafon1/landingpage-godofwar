@@ -125,9 +125,14 @@
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  .container{
+  .container {
     display: flex;
     align-items: center;
+    img{
+    position: relative;
+    left: 108px;
+    top: -14px;
+    }
   }
   .left {
     width: 100%;
@@ -137,23 +142,20 @@
       margin-bottom: 2.4rem;
       max-width: 50.2rem;
     }
-      p {
-        margin-bottom: 5.6rem;
-
-      }
-    }
-    
-    .corp {
-      display: flex;
-      align-items: center;
-      p {
-        margin-bottom: 0;
-        font-size: 1.6rem;
-        line-height: 160%;
-        max-width: 32.4rem;
-        margin-left: 4.6rem;
-        
-      }
+    p {
+      margin-bottom: 5.6rem;
     }
   }
 
+  .corp {
+    display: flex;
+    align-items: center;
+    p {
+      margin-bottom: 0;
+      font-size: 1.6rem;
+      line-height: 160%;
+      max-width: 32.4rem;
+      margin-left: 4.6rem;
+    }
+  }
+}
